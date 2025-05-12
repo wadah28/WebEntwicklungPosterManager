@@ -1,0 +1,36 @@
+body {
+    background-color: #d2d2d2;
+  }
+  header {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+/* navi */
+  .navigation{
+    text-align: right;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+  .navigation a {
+    text-decoration:wavy;
+    color: #000000; /* deine gewünschte Farbe */
+    margin-left: 15px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .navigation a:hover{
+    color : rgb(255, 255, 255);
+  }
+  
+
+
+  footer{
+    color: rgb(0, 0, 0);
+  }
+
+  p {
+    color: rgb(76, 130, 247);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
