@@ -94,6 +94,7 @@ body {
     z-index: 2; /* ensures it stays on top of the tint */
     pointer-events: none;
   }
+
   .BigPoster .text-overlay h3 {
     font-size: clamp(1.5rem, 5vw, 3rem);
     margin: 0.2em 0;
