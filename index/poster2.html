@@ -3,16 +3,65 @@
     <head>
         <title>poster2</title>
         <meta name="keywords" content="poster3, wolf party" >
+        <link rel="stylesheet" href="../style/stylePoster.css" media="screen" >
     </head>
     <body>
         <header>
-            <h1>Hi here the first poster</h1>
-            <a href="CMS.html" id="Home_Button"><h2>back to home</h2></a>
+            <h1>A Good Title</h1>
         </header>
-        <p>created on this day .. .. ....</p>
-        <img src="https://picsum.photos/200/300?grayscale" alt="Wolf Woh woh waaao">
-        <img src="https://picsum.photos/200/300/?blur" alt="Wolf Woh woh waaao">
-        <h1>wolf party</h1>
+        <nav class ="navigation" >
+            <a href="CMS.html" id="links">Home</a>
+            <a href="myAccout.html" id="links"> My Account</a>
+            <a href="MoreInfo.html" id="links">More info</a>
+            <a href="posterdesigner.html" id="posterdesigner">Create Poster</a>
+        </nav>
+        <main class="grid">
+            <article class="BigPoster">
+                <div class="BigPosterVisual">
+                  <img src="https://picsum.photos/1200/650?grayscale" alt="Wolf Woh woh waaao">
+                  <div class="tint"></div> 
+                  <div class="text-overlay"> 
+                    <h3>Wolf Party</h3>
+                    <p><time datetime="2025-04-10">10. April 2025</time></p>
+                  </div>
+                </div>
+                <!-- This is now OUTSIDE the visual overlay -->
+                <p id="BigPosterText">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magnam, 
+                  possimus consectetur vero voluptate iure voluptatibus sed inventore quibusdam 
+                  perferendis dicta a reprehenderit doloremque nobis dolorem at facere saepe. 
+                  Ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod 
+                  nemo molestias suscipit. Quidem, quod sit, sequi perspiciatis aperiam nulla 
+                  deleniti illo pariatur odio obcaecati assumenda culpa qui facere! Harum?
+                </p>
+              </article>
+              
+
+            <article id="Foto2">
+                <img src="https://picsum.photos/1200/650??grayscale" alt="Wolf Woh woh waaao">
+                <h3>Wolf Party</h3>
+                <p><time datetime="2025-04-10">10. April 2025</time></p>
+                <p class="SmallText">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magnam, 
+                    possimus consectetur vero voluptate iure voluptatibus sed inventore quibusdam 
+                    perferendis dicta a reprehenderit doloremque nobis dolorem at facere saepe. 
+                    Ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod 
+                    nemo molestias suscipit. Quidem, quod sit, sequi perspiciatis aperiam nulla 
+                    deleniti illo pariatur odio obcaecati assumenda culpa qui facere! Harum?
+                  </p>
+            </article>
+            <article id="Foto3">
+                <img src="https://picsum.photos/1200/650??grayscale" alt="Wolf Woh woh waaao">
+                <h3>Wolf Party</h3>
+                <p><time datetime="2025-04-10">10. April 2025</time></p>
+                <p class="SmallText">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magnam, 
+                    possimus consectetur vero voluptate iure voluptatibus sed inventore quibusdam 
+                    perferendis dicta a reprehenderit doloremque nobis dolorem at facere saepe. 
+                   </p>
+            </article>
+        </main>
+        
         
         <footer>
             <p>&copy; 2025 by Wadah Farhat & Sakar Karakheti</p>
