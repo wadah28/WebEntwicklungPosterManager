@@ -28,7 +28,6 @@ body {
     font-weight: bold;
     font-size: larger;
   }
-
   main {
     padding: 2rem;
     width: 100%;
@@ -43,8 +42,8 @@ body {
   }
   
   fieldset {
-    border: none;
-    padding: 0;
+    border:(srgb red green blue);
+    padding: 20px;
     margin: 0;
     display: flex;
     flex-direction: column;
