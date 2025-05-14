@@ -1,7 +1,6 @@
 body {
     background-color: #d2d2d2;
     margin: 0;
-    padding: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,12 +21,13 @@ body {
   }
   .navigation a {
     text-decoration: wavy;
-    color: #000000; /* deine gewünschte Farbe */
+    color: #000000;
     margin-left: 10px;
     margin-right: 10px;
     font-weight: bold;
   }
   .grid{
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -41,7 +41,7 @@ body {
     display: inline-block;
   }
   .grid article img{
-    width: 100%;         /* 🔥 Makes the image fill the article */
+    width: 100%;        
     display: block;
     height: auto;
   }
@@ -60,7 +60,6 @@ body {
   .BigPoster {
     position: relative;
     grid-column: 1 / -1;
-    margin-top: 10px;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -77,13 +76,12 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50%; /* adjust to how much of the image should be tinted */
+    height: 50%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
-    pointer-events: none; /* so it doesn't block interaction */
+    pointer-events: none; 
     z-index: 1;
   }
   
-  /* Text content on top of the tint */
   .BigPoster .text-overlay {
     position: absolute;
     bottom: 0;
@@ -95,7 +93,7 @@ body {
     align-items: flex-start;
     justify-content: flex-end;
     box-sizing: border-box;
-    z-index: 2; /* ensures it stays on top of the tint */
+    z-index: 2;
     pointer-events: none;
   }
   
