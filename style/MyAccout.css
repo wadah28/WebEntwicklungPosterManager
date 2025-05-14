@@ -72,15 +72,37 @@ body {
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.3s;
-  }
-  
+  }  
   input:focus {
     border-color: #0077cc;
     outline: none;
   }
- 
+button {
+  background-color: #000000; /* schönes Grün */
+  color: white;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+}
 
+button:hover {
+  background-color: #3403b2;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
 
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
   footer{
     color: rgb(0, 0, 0);
   }
