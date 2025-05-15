@@ -17,6 +17,10 @@ body {
     border-top: 2px solid rgb(0, 0, 0);
     border-bottom: 2px solid rgb(0, 0, 0);
   }
+  .navigation a:hover{
+    color: #3403b2;
+    transform: translateY(-2px);
+  }
   .navigation a#posterdesigner{
     margin-left: auto;
   }

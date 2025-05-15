@@ -37,6 +37,11 @@ body {
   .grid article:not(.BigPoster){
     display: block;
   }
+  .grid article:not(.BigPoster):hover{
+    transform: translateY(-2px);
+    box-sizing: border-box;
+    background-color: #cdcdcd
+  }
   .grid article img{
     width: 100%;       
     display: block;
@@ -109,7 +114,8 @@ body {
   }  
   
   .navigation a:hover{
-    color : rgb(255, 255, 255);
+    color: #3403b2;
+    transform: translateY(-2px);
   }
   footer{
     color: rgb(0, 0, 0);

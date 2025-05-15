@@ -35,7 +35,8 @@ body {
   }
 
   .navigation a:hover{
-    color : rgb(255, 255, 255);
+    color: #3403b2;
+    transform: translateY(-2px);
   }
   footer{
     color: rgb(0, 0, 0);
